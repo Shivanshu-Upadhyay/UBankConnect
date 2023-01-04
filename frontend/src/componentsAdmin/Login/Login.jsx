@@ -71,9 +71,9 @@ function Login() {
               <div className="login-wrapper text-center">
                 <div className="login-img">
                   <img
-                    src="https://www.akonto.co//assets/frontend/images/logo.png"
+                    src="./imges/adminlogo.svg"
                     alt=""
-                    width="100px"
+                    width="300px"
                   />
                 </div>
                 <form onSubmit={(e) => handleSubmit(e)}>
