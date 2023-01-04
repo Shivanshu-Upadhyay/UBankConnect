@@ -53,7 +53,7 @@ textarea.createInvoiceTeaxtArea{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:#69a47b ;
+  background:#bfbfbf ;
   border-radius: 10px;
   
 }

@@ -58,7 +58,7 @@ function Dashboard() {
               defaultActiveKey="yesterday"
               transition={false}
               justify
-              className="mb-3"
+              className="mb-3 admin"
             >
               <Tab eventKey="yesterday" 
                 title={
@@ -111,7 +111,7 @@ function Dashboard() {
               defaultActiveKey="yesterday"
               transition={false}
               justify
-              className="mb-3"
+              className="mb-3 admin"
             >
               <Tab eventKey="yesterday" title={
                 <h6 className='tabHeading'>
@@ -163,7 +163,7 @@ function Dashboard() {
               defaultActiveKey="yesterday"
               transition={false}
               justify
-              className="mb-3"
+              className="mb-3 admin"
             >
               <Tab eventKey="yesterday" title={
                 <h6 className='tabHeading'>
@@ -226,7 +226,7 @@ function Dashboard() {
               defaultActiveKey="deposit"
               transition={false}
               justify
-              className="mb-3"
+              className="mb-3 admin"
             >
               <Tab eventKey="deposit" title={
                 <h6 className='tabHeading'>

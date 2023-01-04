@@ -122,7 +122,7 @@ const VirtualBlock2 = () =>{
               <label htmlFor="" className="mb-2">
                 Currency
               </label>
-              <select style={{ width: "100px" }}>
+              <select className="virtual" style={{ width: "100px" }}>
                 <option value="USD">USD</option>
                 <option value="CNY">CNY</option>
                 <option value="INR">INR</option>

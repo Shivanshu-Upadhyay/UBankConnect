@@ -152,7 +152,7 @@ const TableDialog = ({tabledatafetch}) => {
                     </div>
                     <div className=" col-md-4 d-flex flex-column text-center mb-3 justify-content-center align-items-center">
                       <label htmlFor="">Role</label>
-                      <select onChange={(e) => setRole(e.target.value)}>
+                      <select className="merchantTeam" onChange={(e) => setRole(e.target.value)}>
                         <option value="1">Administrator</option>
                         <option value="2">Manager</option>
                         <option value="3">Cashier</option>

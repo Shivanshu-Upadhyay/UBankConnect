@@ -508,7 +508,7 @@ input[type="checkbox"] {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #99b5a2;
+  background: #bfbfbf;
   border-radius: 10px;
 }
 

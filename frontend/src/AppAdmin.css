@@ -258,7 +258,7 @@
   border-radius: 50%;
 }
 
-.iconActive {
+.iconActive1 {
   background: #ff6600;
   display: flex;
   justify-content: center;
@@ -508,7 +508,7 @@ input[type="checkbox"] {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #99b5a2;
+  background: #bfbfbf;
   border-radius: 10px;
 }
 
@@ -899,4 +899,8 @@ select.form-select.form-select-sm.mb-3.boldOption {
 
 th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignCenter.MuiTableCell-sizeMedium.css-1ndpvdd-MuiTableCell-root {
   white-space: nowrap;
+}
+
+.tab-content>.active {
+  background: transparent !important;
 }

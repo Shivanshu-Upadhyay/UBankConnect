@@ -46,15 +46,16 @@ foreignObject {
 
 .newscroll{
   overflow: auto;
-  height: calc(256px - 57px);
+  height: calc(256px - 40px);
   padding: 0px 10px;
 }
 
-.nav-tabs .nav-link.active {
+ul.mb-3.admin.nav.nav-tabs.nav-justified .nav-link.active {
   color: #000;
-  background-color: #ffd1b3;
-  border: none;
+  background-color: #ffd1b3 !important;
+  border: none !important;
   height: 100%;
+  border-radius: 0 !important;
 }
 
 .nav-link {
@@ -140,6 +141,7 @@ span.apexcharts-legend-text {
 
 ul.mb-3.nav.nav-tabs.nav-justified{
   background: #ffa366;
+  height: 39px;
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:focus-visible {

@@ -433,7 +433,7 @@ export default function Sidebar({ modulePesmission }) {
                     to={item.path}
                     className={({ isActive }) =>
                       isActive || (toggel && active === index)
-                        ? "iconcontainer iconActive mx-2 my-1"
+                        ? "iconcontainer iconActive1 mx-2 my-1"
                         : "iconcontainer mx-1 my-1"
                     }
                   >
