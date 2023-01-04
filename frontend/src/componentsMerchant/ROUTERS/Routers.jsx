@@ -40,7 +40,7 @@ function Routers() {
       const expirationTime = (exp * 1000) - 60000
       if (Date.now() >= expirationTime) {
         localStorage.clear(); 
-        reactNavigate('/login-merchant')
+        reactNavigate('merchant/login-merchant')
         return;
       }
     }
