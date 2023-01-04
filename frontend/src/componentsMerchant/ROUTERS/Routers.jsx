@@ -44,6 +44,7 @@ function Routers() {
         return;
       }
     }
+    
     setIsLoginUser(localStorage.getItem('user')) 
     setAccoutType(localStorage.getItem('accoutType')) 
 
